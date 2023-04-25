@@ -32,7 +32,8 @@ def read_and_listen():
 
 # Create the main window
 root = tk.Tk()
-root.title("Book Reading App")
+root.title("Soma Tech Demo")
+root.geometry("800x600")
 
 # Add a text widget
 text_to_read = tk.Text(root, wrap=tk.WORD, height=8, width=40)
@@ -44,7 +45,7 @@ read_button.pack(pady=10)
 
 # Add a label for feedback
 feedback_label = tk.Label(root, text="Feedback:")
-feedback_label.pack(pady=10)
+feedback_label.pack(pady=50)
 
 # Start the main loop
 root.mainloop()
